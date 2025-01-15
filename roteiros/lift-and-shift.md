@@ -165,14 +165,15 @@ Para minimizar custos, use backups incrementais, onde apenas as alterações sã
 |Service           |Price (Monthly)    |Region          |
 |------------------|-------------------|-----------------
 |MGN               |$ 0,00             |North Virginia  |
-|EC2 (MGN)         |$ 42,47            |North Virginia  |
-|EC2 (React)       |$ 16,18            |North Virginia  |
+|EC2 (MGN)         |$ 12,45            |North Virginia  |
+|EC2 (Front-end)   |$ 16,18            |North Virginia  |
 |EC2 (Back-end)    |$ 28,45            |North Virginia  |
-|RDS               |$ 293,34           |North Virginia  |
-|DMS               |$ 169,92           |North Virginia  |
-|VPC               |$ 104,48           |North Virginia  |
-|**Total**            |**$ 000,00**
-
+|RDS               |$ 444,45           |North Virginia  |
+|DMS               |$ 64,13            |North Virginia  |
+|VPC               |$ 37,18            |North Virginia  |
+|**Total**         |**$ 576,28**       |                |
+|**Custo mensal**  |**512,15 USD**     |                |
+|------------------|-------------------|----------------|
 
 *Validação:*
 DNS Temporário
