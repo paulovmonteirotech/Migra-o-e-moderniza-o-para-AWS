@@ -28,15 +28,7 @@ Sistema on-premise composto por:
 ## 📐 Arquiteturas
 
 ### Arquitetura Atual
-
-```mermaid
-flowchart TD
-    subgraph "Infra On-Premise"
-        CLIENT[Cliente] --> FE[Frontend Server - React]
-        FE --> BE[Backend Server - Nginx]
-        BE --> DB[Database Server - MySQL]
-    end
-```
+![Diagrama](on-premise.png)
 
 ### Migração Lift-and-Shift
 ![Diagrama](asis.drawio.png)
