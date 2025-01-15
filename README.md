@@ -39,10 +39,10 @@ flowchart TD
 ```
 
 ### Migração Lift-and-Shift
-
+![Diagrama](asis.drawio.png)
 
 ### Modernização com Kubernetes
-
+![Diagrama](modernizacao2.drawio.png)
 
 
 ## 📍 Etapas do Projeto
