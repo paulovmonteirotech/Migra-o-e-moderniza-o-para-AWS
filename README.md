@@ -39,7 +39,7 @@ Sistema on-premise composto por:
 
 ## 📍 Etapas do Projeto
 
-### Etapa 1: Migração Lift-and-Shift -> [Roteiro](lift-and-shift.md)
+### Etapa 1: Migração Lift-and-Shift -> [Roteiro](roteiros/lift-and-shift.md)
 
 - **Objetivo**: Migração rápida com mínimas alterações
 - **Componentes Principais**:
@@ -58,7 +58,7 @@ Sistema on-premise composto por:
 - **Custo da infraestrutura na AWS**:
   - [Utilização da AWS Pricing Calculator para estimar custos](https://calculator.aws/#/estimate?id=e9cb7dffa4052ff3c416d089e356852cf2e901ca)
 
-### Etapa 2: Modernização com Kubernetes  -> [Roteiro](modernizacao.md)
+### Etapa 2: Modernização com Kubernetes  -> [Roteiro](roteiros/modernizacao.md)
 
 - **Objetivo**: Modernização completa da infraestrutura
 - **Componentes Principais**:
