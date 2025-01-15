@@ -156,3 +156,19 @@ RDS Multi-AZ: Para persistência de dados.
 S3: Armazenamento de objetos.
 CodePipeline + CodeBuild: CI/CD integrado.
 CloudWatch: Monitoramento centralizado.
+
+|Service           |Price (Monthly)    |Region          |
+|------------------|-------------------|----------------|
+|RDS               |$ 293,34           |North Virginia  |
+|RDS (Réplica)     |$ 293,34           |North Virginia  |
+|Route 53          |$ 3,60             |North Virginia  |
+|ALB               |$ 22,27            |North Virginia  |
+|WAF               |$ 25,00            |North Virginia  |
+|S3                |$ 2,91             |North Virginia  |
+|CloudWatch        |$ 16,08            |North Virginia  |
+|Secrets Manager   |$ 4,00             |North Virginia  |
+|KMS               |$ 11,00            |North Virginia  |
+|EKS Cluster       |$ 73,00            |North Virginia  |
+|VPC               |$ 154,20           |North Virginia  |
+|EC2 (Worker Nodes)|$ 103,95           |North Virginia  |
+|**Total**             |**$ 1,002.69**         
