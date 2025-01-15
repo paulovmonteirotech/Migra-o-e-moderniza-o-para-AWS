@@ -28,13 +28,13 @@ Sistema on-premise composto por:
 ## 📐 Arquiteturas
 
 ### Arquitetura Atual
-![Diagrama](on-premise.png)
+![Diagrama](imagens/on-premise.png)
 
 ### Migração Lift-and-Shift
-![Diagrama](asis.drawio.png)
+![Diagrama](imagens/asis.drawio.png)
 
 ### Modernização com Kubernetes
-![Diagrama](modernizacao2.drawio.png)
+![Diagrama](imagens/modernizacao2.drawio.png)
 
 
 ## 📍 Etapas do Projeto
