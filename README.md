@@ -56,7 +56,9 @@ Sistema on-premise composto por:
   - Configuração de snapshots automáticos para EC2
   - Backup de banco de dados com AWS Backup
 - **Custo da infraestrutura na AWS**:
-  - [Utilização da AWS Pricing Calculator para estimar custos]([https://calculator.aws/#/estimate?id=e9cb7dffa4052ff3c416d089e356852cf2e901ca](https://calculator.aws/#/estimate?id=2bf444dd22794b437bded693312cac2c0fa2ee2f))
+  - Utilização da AWS Pricing Calculator para estimar custos**:  
+  [Acesse o AWS Pricing Calculator aqui](https://calculator.aws/#/estimate?id=2bf444dd22794b437bded693312cac2c0fa2ee2f)
+
 
 ### Etapa 2: Modernização com Kubernetes  -> [Roteiro](roteiros/modernizacao.md)
 
