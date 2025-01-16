@@ -173,6 +173,7 @@ CloudWatch: Monitoramento centralizado.
 |ECR               |$ 00,50            |North Virginia  |
 |AWS Backup        |$ 12,50            |North Virginia  |
 |AWS CodePipeline  |$ 00,80            |North Virginia  |
-|AWS CodeBuild     |$ 09,00
-
-|**Custo mensal**             |**1.961,71 USD**         
+|AWS CodeBuild     |$ 09,00            |North Virginia  |
+|                  |                   |                |
+|**Custo mensal**  |**1.961,71 USD**   |                |
+|------------------|-------------------|----------------|
