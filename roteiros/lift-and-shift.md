@@ -171,8 +171,9 @@ Para minimizar custos, use backups incrementais, onde apenas as alterações sã
 |RDS               |$ 444,45           |North Virginia  |
 |DMS               |$ 64,13            |North Virginia  |
 |VPC               |$ 37,18            |North Virginia  |
-|**Total**         |**$ 576,28**       |                |
-|**Custo mensal**  |**512,15 USD**     |                |
+|AWS Backup        |$ 2,58             |North Virginia  |
+|**Total**         |**$ 578,86**       |                |
+|**Custo mensal**  |**514,73 USD**     |                |
 |------------------|-------------------|----------------|
 
 *Validação:*
