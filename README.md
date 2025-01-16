@@ -81,7 +81,8 @@ Sistema on-premise composto por:
   - Backup de volumes EBS e snapshots de banco de dados
   - Utilização de AWS S3 para armazenamento de backups
 - **Custo da infraestrutura na AWS**:
-  - Utilização da AWS Pricing Calculator para estimar custos
+ - Utilização da AWS Pricing Calculator para estimar custos:  
+  [Acesse o AWS Pricing Calculator aqui](https://calculator.aws/#/estimate?id=90d1b1fa8c7b85629f5d8d703ace2eb0780acadc)
 
 ## 📝 Observações
 
