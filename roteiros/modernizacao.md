@@ -18,7 +18,7 @@ Criar Cluster EKS
 Configuração do Cluster:
 
 Utilize ferramentas como eksctl, Terraform, ou AWS CloudFormation.
-Defina subnets privadas para os nós do cluster e subnets públicas para o Application Load Balancer (ALB).
+Defina subnets privadas para os nós do cluster e subnets públicas para o Classic Load Balancer (LB).
 Configure IAM Roles for Service Accounts (IRSA) para permitir acesso seguro dos pods a serviços AWS como RDS, S3 e Secrets Manager.
 Autoscaling e Nodes:
 
@@ -151,7 +151,7 @@ Versão habilitada para objetos críticos.
 Replicação para outra região, garantindo DR (Disaster Recovery).
 Diagrama da Nova Arquitetura
 Cluster EKS: Subnets privadas.
-ALB (Ingress Controller): Subnets públicas.
+LB (Ingress Controller): Subnets públicas.
 RDS Multi-AZ: Para persistência de dados.
 S3: Armazenamento de objetos.
 CodePipeline + CodeBuild: CI/CD integrado.
@@ -159,16 +159,20 @@ CloudWatch: Monitoramento centralizado.
 
 |Service           |Price (Monthly)    |Region          |
 |------------------|-------------------|----------------|
-|RDS               |$ 293,34           |North Virginia  |
-|RDS (Réplica)     |$ 293,34           |North Virginia  |
-|Route 53          |$ 3,60             |North Virginia  |
-|ALB               |$ 22,27            |North Virginia  |
-|WAF               |$ 25,00            |North Virginia  |
-|S3                |$ 2,91             |North Virginia  |
-|CloudWatch        |$ 16,08            |North Virginia  |
-|Secrets Manager   |$ 4,00             |North Virginia  |
+|RDS               |$1.587,80          |North Virginia  |
+|Route 53          |$ 00,50            |North Virginia  |
+|LB                |$ 19,05            |North Virginia  |
+|WAF               |$ 06,00            |North Virginia  |
+|S3                |$ 02,30            |North Virginia  |
+|CloudWatch        |$ 27,68            |North Virginia  |
+|Secrets Manager   |$ 01,20            |North Virginia  |
 |KMS               |$ 11,00            |North Virginia  |
 |EKS Cluster       |$ 73,00            |North Virginia  |
-|VPC               |$ 154,20           |North Virginia  |
-|EC2 (Worker Nodes)|$ 103,95           |North Virginia  |
-|**Total**             |**$ 1,002.69**         
+|VPC               |$ 78,35            |North Virginia  |
+|EC2 (Worker Nodes)|$ 132,03           |North Virginia  |
+|ECR               |$ 00,50            |North Virginia  |
+|AWS Backup        |$ 12,50            |North Virginia  |
+|AWS CodePipeline  |$ 00,80            |North Virginia  |
+|AWS CodeBuild     |$ 09,00
+
+|**Custo mensal**             |**1.961,71 USD**         
