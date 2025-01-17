@@ -144,10 +144,6 @@ Role para DMS com permissões restritas ao RDS e à origem de dados.
 Gerenciamento de Usuários: Segmente permissões conforme as responsabilidades, garantindo auditoria e rastreabilidade.
 
 
-*Criptografia:*
-
-RDS:
- Criptografar o banco de dados MySQL com KMS (AWS Key Management Service).
 
 *----Processo de Backup---*
 
@@ -155,7 +151,7 @@ RDS:
 
 Configuração de políticas de backup para EC2 e RDS.
 Realização de backups automáticos diários, semanais e mensais.
-Armazenamento de backups em Amazon S3 Glacier para retenção de longo prazo.
+
 Backups Incrementais:
 
 Para minimizar custos, use backups incrementais, onde apenas as alterações são salvas após o backup inicial.
@@ -190,13 +186,17 @@ Verificar se APIs, frontend e DB estão funcionando sem erros.
 - Monitorar performance  
 
 *Extras*
+*Criptografia:*
 
+RDS:
+ Criptografar o banco de dados MySQL com KMS (AWS Key Management Service).
 IAM:
 Automatize a rotação de chaves KMS para criptografia de backups e banco de dados.
 Implante o AWS Identity Center para gerenciar acessos temporários em grandes equipes.
 Backup:
 Configure alertas via Amazon CloudWatch para falhas de backup.
 Use o AWS Backup Audit Manager para verificar conformidade com regulamentos e boas práticas.
+Armazenamento de backups em Amazon S3 Glacier para retenção de longo prazo.
 
 ------------------------------------------
 *Resumo:*
